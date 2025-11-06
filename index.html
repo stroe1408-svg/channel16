@@ -8,7 +8,6 @@
     <script src="script.js"></script>
 
 </head>
-<header>
 <body class="body">
     <nav class="nav-bar">
         <ul class="nav-links">
@@ -19,23 +18,24 @@
             <li><a href="#evenimente" class="btn">Evenimente</a></li> 
             <li><a href="#Formular" class="btn">Formular</a></li> 
             <li><a href="#partn" class="btn">Parteneri</a></li>
-    </nav> 
-    </header>
-
-    
-    <div class="background-image">
+          </ul> 
+        </nav> 
+   
+ 
+    <div class="colosseum">
     <div class="content">
         <h1 class="title">Channel 16</h1>
         <p class="p1"></p>
     </div>
-    <div> 
       <h2 id="despre noi" class="Despre-noi">Despre noi</h2> 
       <div> 
        <h3 class="despre-noi"> 
        <p> <h3 class="p1">Ești student și simți că ai nevoie de un sprijin media real?</h3>  </p> <br>
         <p ><h3 class="p2">Channel 16 este aici!</h3>  </p>  <br>
          <p> <h3 class="p3">Acesta este noul tău hub digital!</h3></p> <br>
+
          <h3 class="text2">Conținut Relevant, Direct pe Ecran!</h3> <br>
+       </div>
        </div>
 <h3 class="text">Channel 16 oferă o grilă variată de emisiuni care acoperă tot spectrul vieții de student: <br>
  • Talk-show-uri despre viața în campus și subiecte fierbinți <br>
@@ -50,15 +50,22 @@
       </div>
           
 <h2 id="galerie" class="Galerie">Galerie</h2> <br>
-<iframe class="video" width="560" height="315"
-  src="https://www.youtube.com/embed/id orice video”
-  title="YouTube video player"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen>
-</iframe>
 
-         <h2 id="evenimente" class="event">Evenimente (No signal!)</h2> 
+<div class="insta-story">
+        <div class="galerie-poze">
+            <img src="instastory-proiect.png" alt="insta-story" class="galerie-imag">
+            </div>
+<div class="video-container">
+    <video controls width="300">
+      <source src="video-promo.mp4" type="video/mp4">
+    </video>
+</div>
+<div class="galerie-poze">
+            <img src="Insta-post.png" alt="insta-post" class="galerie-imag">
+            </div>
+        </div>
+
+ <h2 id="evenimente" class="event">Evenimente (No signal!)</h2> 
          
          
         <section id="Galerie" class="tv-gallery-section">
@@ -80,51 +87,78 @@
     </div>
 </section>
             
-        
+     
+  <h2 id="Formular" class="formular">Formular înscriere emisiuni </h2>
 
-        <h2 id="Formular" class="formular">Formular</h2>
-        <div class="form">
-<form class="data-form">
-  <p>
-    <label>Nume:</label><br>
-    <input type="text" name="nume" placeholder="Scrie numele complet">
-  </p>
+  <div class="form-and-tips-container">
+    <div class="form">
+      <form class="data-form">
+        <p>
+          <label>Nume:</label><br>
+          <input type="text" name="nume" placeholder="Scrie numele complet">
+        </p>
 
-  <p>
-    <label>Email:</label><br>
-    <input type="email" name="email" placeholder="adresa@gmail.com">
-  </p>
+        <p>
+          <label>Email:</label><br>
+          <input type="email" name="email" placeholder="adresa@gmail.com">
+        </p>
 
-  <p>
-    <label>Facultate:</label><br>
-    <input type="text" name="facultate" placeholder="Ex: ASE">
-  </p>
+        <p>
+          <label>Facultate:</label><br>
+          <input type="text" name="facultate" placeholder="Ex: ASE">
+        </p>
 
-  <p>
-    <label>An de studiu:</label><br>
-    <input type="number" name="an" placeholder="Ex: 1">
-  </p>
+        <p>
+          <label>An de studiu:</label><br>
+          <input type="number" name="an" placeholder="Ex: 1">
+        </p>
 
-  <p>
-    <label>Mesaj:</label><br>
-    <textarea name="mesaj" rows="4" cols="40" placeholder="Scrie mesajul tău aici..."></textarea>
-  </p>
- 
-   <p> 
-    <label> Numar de telefon</label> <br>
-    <input type="number" name="numar" placeholder="Ex: 0712 345 678">
+        <p>
+          <label>Mesaj:</label><br>
+          <textarea name="mesaj" rows="4" cols="40" placeholder="Scrie mesajul tău aici..."></textarea>
+        </p>
 
-   </p>
-  <p>
-    <button type="submit" class="button">Trimite</button>
-  </p>
-</form>
-</div>
-    </div> 
+        <p>
+          <label> Numar de telefon</label> <br>
+          <input type="number" name="numar" placeholder="Ex: 0712 345 678">
+
+        </p>
+        <p>
+          <button type="submit" class="button">Trimite</button>
+        </p>
+      </form>
     </div>
-    </div> 
-   
-  <h2 id="partn"   class="partn">Parteneri</h2>
+    <div class="tips-section">
+      <h3 class="tips-title">Încă nu te-am convins să te alături?</h3>
+      <p class="tips-subtitle">This is your weekly tips and tricks, fun fact and university meme</p>
+
+      <div class="tips-box">
+        <h4>Tips & Tricks</h4>
+        <p class="tips-content">
+          Folosește tehnica Pomodoro: studiază 25 de minute concentrate, apoi ia o pauză de 5 minute.
+          După 4 sesiuni, ia o pauză mai lungă de 15-30 minute. Productivitatea ta va crește semnificativ!
+        </p>
+      </div>
+
+      <div class="tips-box">
+        <h4>Fun fact</h4>
+        <p class="tips-content">
+          Știai că studenții care dorm 7-8 ore pe noapte au cu 40% șanse mai mari să obțină note mai mari
+          decât cei care dorm mai puțin? Somnul consolidează memoria!
+        </p>
+      </div>
+
+      <div class="tips-box">
+        <h4>University Meme</h4>
+        <img src="pozameme.jpeg" alt="University Meme" class="meme-image">
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>   
+
+<h2 id="partn"   class="partn">Parteneri</h2>
 
  
  <ul class="parteneri">
@@ -141,6 +175,7 @@
   <div>
     <img class="part" src="logori.jpg" alt="Parteneri">
   </div>
+</div>
 </div>
 <footer style="background-color: #F8F4E3 ; color: rgb(25, 17, 17); text-align: center; padding: 20px;">
   <p>Urmărește-ne pe rețelele sociale:</p>
